@@ -1,12 +1,9 @@
-// DIE's signature file
-
-init("packer","32Lite");
+init("archive","DotBundle Project");
 
 function detect(bShowType,bShowVersion,bShowOptions)
 {
-    if(PE.compareEP("6006FC1E07BE........6A0468........68"))
+    if(Text.compare("3C70726F6A6563743E0D0A20203C6D61696E65786520706174683D"))
     {
-        sVersion="0.03a";
         bDetected=1;
     }
 
