@@ -59,11 +59,19 @@ function getASPackVersion(nOffset)
     }
     else if(PE.compare("60E803000000E9EB045D4555C3E801",nOffset))
     {
-        sVersion="2.12";
+        sVersion="2.12-2.42";
     }
     else if(PE.compare("9060E8$$$$$$$$5D4555C3",nOffset))
     {
         sVersion="2.12b";
+    }
+    else if(PE.compare("60e8$$$$$$$$8b2c2481ed........c3",nOffset))
+    {
+        sVersion="2.1x-2.39";
+    }
+    else if(PE.compare("9060e8$$$$$$$$8b2c2481ed........c3",nOffset))
+    {
+        sVersion="2.1x-2.39";
     }
     else
     {

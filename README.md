@@ -1,7 +1,7 @@
 Detect-It-Easy
 ==============
 
-Detect it Easy
+![alt text](https://github.com/horsicq/Detect-It-Easy/blob/master/screenshot.jpg "Screenshot")
 
 Detect It Easy, or abbreviated "DIE" is a program for determining types of files.
 
@@ -32,16 +32,16 @@ in the folder "db". If you open this folder, nested sub-folders will be found
 First, DIE determines the type of file, and then sequentially loads all the signatures, 
 which lie in the corresponding folder. Currently the program defines the following types:
 
-• MSDOS executable files MS-DOS
+* MSDOS executable files MS-DOS
 
-• PE executable files Windows
+* PE executable files Windows
 
-• ELF executable files Linux
+* ELF executable files Linux
 
-• MACH executable files Mac OS
+* MACH executable files Mac OS
 
-• Text files
+* Text files
 
-• Binary all other files
+* Binary all other files
 
-You could download DIE here: http://ntinfo.biz/index.php/detect-it-easy
+You could download binaries for Windows, Linux and Mac here: http://ntinfo.biz/
