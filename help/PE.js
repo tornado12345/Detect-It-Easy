@@ -523,6 +523,10 @@ PE.readByte=function(nOffset){}
  */
 PE.readDword=function(nOffset){}
 /**
+ * @see Binary.readQword
+ */
+ELF.readQword=function(nOffset){}
+/**
  * @see Binary.readWord
  */
 PE.readWord=function(nOffset){}
@@ -635,7 +639,7 @@ PE.getNumberOfRichIDs=function(){}
 /**
  * Check if there is a Rich version.
  * @param {UInt} nVersion - Rich version.
- * @returns {Bool} 
+ * @returns {Bool}
  */
 PE.isRichVersionPresent=function(nVersion){}
 /**
